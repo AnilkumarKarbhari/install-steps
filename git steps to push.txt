@@ -1,0 +1,10 @@
+git init
+
+git add .
+
+ git commit -m "typescript basic"
+
+
+git remote add origin https://github.com/AnilkumarKarbhari/typescript-basic.git
+
+git push -u origin master

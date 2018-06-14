@@ -1,0 +1,16 @@
+interface IAnilmal{
+    name:string;
+    walk():string;
+}
+class Animal implements IAnilmal{
+    name:string='anilkuasnd';
+    walk():string{
+        return '${this.name} is walking';
+    }
+}
+
+const dis=new Animal();
+dis.walk;
+let somevar:number|String;
+somevar='hfghfg';
+somevar=10;

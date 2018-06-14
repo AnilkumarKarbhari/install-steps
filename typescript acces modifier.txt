@@ -1,0 +1,18 @@
+class Animal{
+private myprop:String;
+public name:String;
+protected name1:String;
+}
+
+
+class Dog extends Animal {
+    
+    bark(msg:String):void{
+        this.name1;
+        
+console.log('dog bark'+msg);
+    }
+}
+
+const a=new Dog();
+a.bark('bow');

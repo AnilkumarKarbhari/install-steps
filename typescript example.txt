@@ -1,0 +1,47 @@
+
+const a: String ="abcd";
+const a1:String="defg";
+const b:number=10;
+const b1:number=10;
+const c:boolean=true;
+const c1:boolean=true;
+const d:Object={};
+const d1:Object={};
+const e:Object={
+    kkk:"some value"
+};
+const f:Date =new Date();
+const arr1:String[]=['aa','bb'];
+const arr:Array<String> =['fg','dre'];
+interface IUser{
+        name:string;
+        age:number;
+    }
+    const user:IUser={
+name:'and',
+age:46
+    };
+    let users:Array<IUser>=[
+        {
+            name:'gbgg',
+            age:57
+        }
+    ]
+const ar:Array<Object> =[
+
+    
+    
+    {
+        name:'anil',
+        age:20
+    },
+    {
+        name:'san',
+        age:20
+    },{
+
+    },
+    {
+        name:''
+    }
+];

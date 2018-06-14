@@ -1,0 +1,28 @@
+function add(x:number,y:number){
+    x+y;
+   
+}
+ const add1=(x:number,y:number)=>x+y;
+
+ function log(msg:String):String{
+     return msg;
+ }
+
+ 
+
+
+
+
+ interface IUtil{
+     name:String;
+     log(msg:String):String;
+ }
+
+ const util:IUtil={
+     name:'ndhfg',
+     log:(msg:String):String=>{
+         return msg+this.name
+     }
+ }
+  const a:String=util.log('hello');
+ console.log(a)

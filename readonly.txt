@@ -1,0 +1,35 @@
+interface IA{
+    name:string;
+}
+interface IB extends IA{
+    age:number
+}
+
+
+type UserType={
+    age:number;
+    name:string;
+}
+type userpro={
+    email:string;
+}
+
+type compositepro=UserType&userpro;
+
+const u :compositepro ={
+    name:'dbd',
+    age:10,
+    email:'abdhd'
+
+};
+
+type user={
+    name:'ngjg',
+    age:10
+};
+type readonly=Readonly<UserType>;
+
+const a:readonly={
+    name:'fhfh',
+    age:10
+};
